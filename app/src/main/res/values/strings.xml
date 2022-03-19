@@ -1,0 +1,313 @@
+<resources>
+    <string name="app_name">Top 100 Games of All time</string>
+    <string name="action_settings">Settings</string>
+    <string name="android">android</string>
+
+    <string name="nighty_nine">99</string>
+    <string name="nighty_eight">98</string>
+    <string name="nighty_sever">97</string>
+    <string name="nighty_six">96</string>
+    <string name="nighty_five">95</string>
+
+    <string name="zoot">1. The Legend of Zelda: Ocarina of Time</string>
+    <string name="release1">Platform: Nintendo 64 Release Date: November 23, 1998</string>
+
+    <string name="thps2">2. Tony Hawks Pro Skater 2</string>
+    <string name="release2">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gta4_1">3. Grand Theft Auto IV</string>
+    <string name="release3">Platform: PlayStation 3 Release Date: April 29, 2008</string>
+
+    <string name="sc">4. SoulCalibur</string>
+    <string name="release4">Platform: Dreamcast Release Date: September 8, 1999</string>
+
+    <string name="gta4_2">5. Grand Theft Auto IV</string>
+    <string name="release5">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="smg">6. Super Mario Galaxy</string>
+    <string name="release6">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="smg2">7. Super Mario Galaxy 2</string>
+    <string name="release7">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="rdr2">8. Red Dead Redemption 2</string>
+    <string name="release8">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gta5_1">9. Grand Theft Auto V</string>
+    <string name="release9">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gta5_2">10. Grand Theft Auto V</string>
+    <string name="release10">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="detfc">11. Disco Elysium: The Final Cut</string>
+    <string name="release11">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gta5_4">12. Grand Theft Auto V</string>
+    <string name="release12">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="thps2_2">13. Tony Hawks Pro Skater 2</string>
+    <string name="release13">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="zeldabotw">14. The Legend of Zelda: Breath of the Wild</string>
+    <string name="release14">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="thps3">15. Tony Hawks Pro Skater 3</string>
+    <string name="release15">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="pd">16. Perfect Dark</string>
+    <string name="release16">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="rdr2_2">17. Red Dead Redemption 2</string>
+    <string name="release17">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gta5">18. Grand Theft Auto V</string>
+    <string name="release18">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="mp">19. Metroid Prime</string>
+    <string name="release19">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gta3">20. Grand Theft Auto III</string>
+    <string name="release20">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="smo">21.Super Mario Odyssey</string>
+    <string name="release21">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="hce">22. Halo: Combat Evolved</string>
+    <string name="release22">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="mfl2k1">23. NFL 2K1</string>
+    <string name="release23">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="hl2">24. Half-Life 2</string>
+    <string name="release24">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gta5_5">25. Grand Theft Auto V</string>
+    <string name="release25">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="zbotw">26. The Legend of Zelda: Breath of the Wild</string>
+    <string name="release26">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="bs">27. BioShock</string>
+    <string name="release27">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="ge007">28. GoldenEye 007</string>
+    <string name="release28">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="u2at">29. Uncharted 2: Among Thieves</string>
+    <string name="release29">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="re4">30. Resident Evil 4</string>
+    <string name="release30">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="tob">31. The Orange Box</string>
+    <string name="release31">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="tob_2">32. The Orange Box</string>
+    <string name="release32">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="bac">33. Batman: Arkham City</string>
+    <string name="release33">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="t3">34. Tekken 3</string>
+    <string name="release34">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="me2">35. Mass Effect 2</string>
+    <string name="release35">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="fm">36. The House in Fata Morgana - Dreams of the Revenants Edition -</string>
+    <string name="release36">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="ztp">37. The Legend of Zelda: Twilight Princess</string>
+    <string name="release37">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="er">38. Elden Ring</string>
+    <string name="release38">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="skyrim">39. The Elder Scrolls V: Skyrim</string>
+    <string name="release39">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="hl">40. Half-Life</string>
+    <string name="release40">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="re4_2">41. Resident Evil 4</string>
+    <string name="release41">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="er_2">42. Elden Ring</string>
+    <string name="release42">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="zww">43. The Legend of Zelda: The Wind Waker</string>
+    <string name="release243">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gt">44. Gran Turismo</string>
+    <string name="release44">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="bs_2">45. BioShock</string>
+    <string name="release45">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="mgs2">46. Metal Gear Solid 2: Sons of Liberty</string>
+    <string name="release46">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gtadp">47. Grand Theft Auto Double Pack</string>
+    <string name="release47">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="bg2">48. Baldurs Gate II: Shadows of Amn</string>
+    <string name="release48">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gtasa">49. Grand Theft Auto: San Andreas</string>
+    <string name="release49">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gtavc">50. Grand Theft Auto: Vice City</string>
+    <string name="release50">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="lbp">51. LittleBigPlanet</string>
+    <string name="release51">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="zeldace">52. The Legend of Zelda Collectors Edition</string>
+    <string name="release52">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="rdr">53. Red Dead Redemption</string>
+    <string name="release53">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gt3a">54. Gran Turismo 3: A-Spec</string>
+    <string name="release54">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="h2">55. Halo 2</string>
+    <string name="release55">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="zeldalttp">56. The Legend of Zelda: A Link to the Past</string>
+    <string name="release56">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="zeldamm">57. The Legend of Zelda: Majoras Mask</string>
+    <string name="release57">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="tlou">58. The Last of Us</string>
+    <string name="release58">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="zeldatp">59. The Legend of Zelda: Twilight Princess</string>
+    <string name="release59">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="nfl03">60. Madden NFL 2003</string>
+    <string name="release60">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="thps2_3">61. Tony Hawks Pro Skater 2</string>
+    <string name="release61">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="p5r">62. Persona 5 Royal</string>
+    <string name="release62">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="er_3">63. Elden Ring</string>
+    <string name="release63">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="tlour">64. The Last of Us Remastered</string>
+    <string name="release64">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="p2">65. Portal 2</string>
+    <string name="release65">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="rdr_2">66. Red Dead Redemption</string>
+    <string name="release66">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="p2_2">67. Portal 2</string>
+    <string name="release67">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="mgs5">68. Metal Gear Solid V: The Phantom Pain</string>
+    <string name="release68">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="p2_3">69. Portal 2</string>
+    <string name="release69">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="tetris">70. Tetris Effect: Connected</string>
+    <string name="release70">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="wogoo">71. World of Goo</string>
+    <string name="release71">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="skyrim_2">72. The Elder Scrolls V: Skyrim</string>
+    <string name="release72">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="bi">73. BioShock Infinite</string>
+    <string name="release73">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="ff9">74. Final Fantasy IX</string>
+    <string name="release74">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="codmw2">75. Call of Duty: Modern Warfare 2</string>
+    <string name="release75">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gow">76. God of War</string>
+    <string name="release76">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="thps4">77. Tony Hawks Pro Skater 4</string>
+    <string name="release77">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="dmc">78. Devil May Cry</string>
+    <string name="release78">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="cod4">79. Call of Duty 4: Modern Warfare</string>
+    <string name="release79">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="mnfl02">80. Madden NFL 2002</string>
+    <string name="release80">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="baa">81. Batman: Arkham City</string>
+    <string name="release81">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="me2_2">82. Mass Effect 2</string>
+    <string name="release82">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="zeldaoot3d">83. The Legend of Zelda: Ocarina of Time 3D</string>
+    <string name="release83">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="cc">84. Chrono Cross</string>
+    <string name="release84">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="celeste">85. Celeste</string>
+    <string name="release85">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="bi_2">86. BioShock</string>
+    <string name="release86">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="me2_3">87. Mass Effect 2</string>
+    <string name="release87">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gtavc_2">88. Grand Theft Auto: Vice City</string>
+    <string name="release88">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="mnfl04">89. Madden NFL 2004</string>
+    <string name="release89">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="gow_2">90. Gears of War</string>
+    <string name="release90">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="es4o">91. The Elder Scrolls IV: Oblivion</string>
+    <string name="release91">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="civ2">92. Sid Meiers Civilization II</string>
+    <string name="release92">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="quake">93. Quake</string>
+    <string name="release93">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="cod4_2">94. Call of Duty 4: Modern Warfare</string>
+    <string name="release94">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="bi_3">95. BioShock Infinite</string>
+    <string name="release95">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="h3">96. Halo 3</string>
+    <string name="release96">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="ngb">97. Ninja Gaiden Black</string>
+    <string name="release97">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="es4o_2">98. The Elder Scrolls IV: Oblivion</string>
+    <string name="release98">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="sf4">99. Street Fighter IV</string>
+    <string name="release99">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="sma">100. Super Mario Advance 4: Super Mario Bros. 3</string>
+    <string name="release100">Platform: PlayStation Release Date: September 20, 2000</string>
+
+    <string name="zelda_oot">1. The Legend of Zelda: Ocarina of Time</string>
+</resources>
