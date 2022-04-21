@@ -6,7 +6,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -31,7 +32,8 @@
                         android:paddingStart="5dp"
                         android:paddingEnd="5dp"
                         android:paddingTop="5dp"
-                        android:src="@drawable/one_zelda_oot" />
+                        android:src="@drawable/one_zelda_oot"
+                        android:contentDescription="@string/todo" />
 
                     <CheckBox
                         android:id="@+id/image1"
@@ -46,7 +48,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/zoot"
+                        android:id="@+id/score1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -78,7 +80,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/two_th2" />
 
@@ -95,23 +98,25 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/thps2"
+                        android:id="@+id/score2"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_eight"
                         android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
                     android:text="@string/release2"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -125,12 +130,13 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/three_gta4_ps3" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox3"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -142,12 +148,13 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score3"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_eight"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -157,7 +164,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
                     android:text="@string/release1"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -168,16 +176,16 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image4"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/four_soulcalibur" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox4"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -189,23 +197,25 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score4"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_eight"
                         android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
                     android:text="@string/release2"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -219,12 +229,12 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/five_gta4_xbox" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox5"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -236,12 +246,13 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score5"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_eight"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -251,7 +262,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
                     android:text="@string/release1"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -262,16 +274,16 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image6"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/six_mario_galaxy" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox6"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -283,23 +295,25 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score6"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
                     android:text="@string/release2"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -313,12 +327,12 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seven_mario_galaxy2" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox7"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -330,12 +344,13 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score7"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -345,7 +360,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
                     android:text="@string/release1"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -356,7 +372,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image8"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -365,7 +381,7 @@
                         android:src="@drawable/eight_redred2_xbox" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox8"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -377,7 +393,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score8"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -389,7 +405,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -407,12 +423,12 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/nine_gta5_xbox" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox9"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -424,12 +440,12 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score9"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -450,16 +466,16 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image10"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ten_gta5_ps3" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox10"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -471,7 +487,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score10"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -483,7 +499,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -506,7 +522,7 @@
                         android:src="@drawable/eleven_detfc" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox11"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -518,7 +534,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score11"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -544,7 +560,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image12"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -553,7 +569,7 @@
                         android:src="@drawable/twelve_gta5_xbox360" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox12"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -565,7 +581,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score12"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -577,7 +593,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -600,7 +616,7 @@
                         android:src="@drawable/thirteen_tony_hawk_dc" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox13"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -612,7 +628,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score13"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -638,7 +654,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image14"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -647,7 +663,7 @@
                         android:src="@drawable/fourteen_zelda_botw" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox14"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -659,7 +675,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score14"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -671,7 +687,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -689,12 +705,12 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fifteen_th3" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox15"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -706,7 +722,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score15"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -732,7 +748,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image16"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -741,7 +757,7 @@
                         android:src="@drawable/sixteen_perfect_dark" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox16"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -753,7 +769,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score16"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -765,7 +781,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -788,7 +804,7 @@
                         android:src="@drawable/seventeen_red_dead2" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox17"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -800,7 +816,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score17"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -826,7 +842,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image18"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -835,7 +851,7 @@
                         android:src="@drawable/eighteen_gta5_ps4" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox18"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -847,7 +863,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score18"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -859,7 +875,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -882,7 +898,7 @@
                         android:src="@drawable/nineteen_metroid_prime" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox19"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -894,7 +910,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score19"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -920,7 +936,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image20"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -929,7 +945,7 @@
                         android:src="@drawable/twenty_gta3_ps2" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox20"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -941,7 +957,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score20"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -953,7 +969,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc20"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -976,7 +992,7 @@
                         android:src="@drawable/twentyone_mario_odyssey" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox21"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -988,7 +1004,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score21"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1014,7 +1030,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image22"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -1023,7 +1039,7 @@
                         android:src="@drawable/twentytwo_halo" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox22"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1035,7 +1051,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score22"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1047,7 +1063,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc22"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -1070,7 +1086,7 @@
                         android:src="@drawable/twentythree_nfl2001" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox23"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1082,7 +1098,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score23"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1108,7 +1124,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image24"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -1117,7 +1133,7 @@
                         android:src="@drawable/twentyfour_half_life2" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox24"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1129,7 +1145,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score24"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1141,7 +1157,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -1164,7 +1180,7 @@
                         android:src="@drawable/twentyfive_gta5_pc" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox25"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1176,7 +1192,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score25"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1202,7 +1218,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image26"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -1211,7 +1227,7 @@
                         android:src="@drawable/twentysix_zelda_botw_wiiu" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox26"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1223,7 +1239,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score26"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1235,11 +1251,11 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc26"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
+                    android:paddingEnd="5dp"
                     android:text="@string/release2"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -1253,12 +1269,13 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentyseven_bioshock_xbox" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox27"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1270,7 +1287,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score27"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1296,7 +1313,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image28"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -1305,7 +1322,7 @@
                         android:src="@drawable/twentyeight_james_bond_007" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox28"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1317,7 +1334,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score28"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1329,7 +1346,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc28"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -1352,7 +1369,7 @@
                         android:src="@drawable/twentynine_uncharted2" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox29"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1364,12 +1381,12 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score29"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1390,7 +1407,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image30"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -1399,7 +1416,7 @@
                         android:src="@drawable/thirty_elden_ring_ps5" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox30"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1411,7 +1428,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score30"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1423,7 +1440,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc30"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -1446,7 +1463,7 @@
                         android:src="@drawable/thirtyone_re4_gc" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox31"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1458,7 +1475,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score31"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1484,7 +1501,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image32"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -1493,7 +1510,7 @@
                         android:src="@drawable/thirtytwo_orange_box_xbox" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox32"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1505,7 +1522,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score32"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1517,7 +1534,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc32"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -1540,7 +1557,7 @@
                         android:src="@drawable/thirtythree_orange_box" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox33"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1552,7 +1569,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score33"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1578,7 +1595,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image34"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -1587,7 +1604,7 @@
                         android:src="@drawable/thirtyfour_batman_ps3" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox34"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1599,7 +1616,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score34"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1611,7 +1628,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc34"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -1634,7 +1651,7 @@
                         android:src="@drawable/thirtyfive_tekken3" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox35"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1646,7 +1663,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score35"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1672,7 +1689,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image36"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -1681,7 +1698,7 @@
                         android:src="@drawable/thirtysix_elden_ring_xbox" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox36"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1693,7 +1710,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score36"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1705,7 +1722,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc36"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -1728,7 +1745,7 @@
                         android:src="@drawable/thirtyseven_mass_effect2_xbox" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox37"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1740,7 +1757,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score37"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1766,7 +1783,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image38"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -1775,7 +1792,7 @@
                         android:src="@drawable/thirtyeight_morgana" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox38"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1787,7 +1804,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score38"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1799,7 +1816,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc38"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -1822,7 +1839,7 @@
                         android:src="@drawable/thirtynine_zelda_tp" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox39"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1834,7 +1851,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score39"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1860,7 +1877,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image40"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -1869,7 +1886,7 @@
                         android:src="@drawable/forty_skyrim" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox40"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1881,7 +1898,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score40"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1893,7 +1910,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc39"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -1916,7 +1933,7 @@
                         android:src="@drawable/fortyone_half_life" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox41"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1928,7 +1945,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score41"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1954,7 +1971,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image42"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -1963,7 +1980,7 @@
                         android:src="@drawable/fortytwo_re4" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox42"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1975,7 +1992,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score42"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -1987,7 +2004,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc41"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -2010,7 +2027,7 @@
                         android:src="@drawable/fortythree_zelda_ww_gc" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox43"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2022,7 +2039,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score43"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2048,7 +2065,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image44"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -2057,7 +2074,7 @@
                         android:src="@drawable/fortyfour_gt" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox44"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2069,7 +2086,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score44"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2081,7 +2098,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc44"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -2104,7 +2121,7 @@
                         android:src="@drawable/fortyfive_bioshock_pc" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox45"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2116,7 +2133,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score45"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2142,7 +2159,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image46"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -2151,7 +2168,7 @@
                         android:src="@drawable/fortysix_mgs2" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox46"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2163,7 +2180,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score46"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2175,7 +2192,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc46"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -2198,7 +2215,7 @@
                         android:src="@drawable/fortyseven_gta3sa" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox47"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2210,7 +2227,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score47"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2236,7 +2253,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image48"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -2245,7 +2262,7 @@
                         android:src="@drawable/fortyeight_balders_gate2" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox48"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2257,7 +2274,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score48"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2269,7 +2286,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc48"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -2292,7 +2309,7 @@
                         android:src="@drawable/fortynine_gtasa_ps2" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox49"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2304,7 +2321,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score49"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2330,7 +2347,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image50"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -2339,7 +2356,7 @@
                         android:src="@drawable/fifty_gtavc_ps2" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox50"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2351,7 +2368,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score50"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2363,7 +2380,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc50"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -2386,7 +2403,7 @@
                         android:src="@drawable/fiftyone_lbp" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox51"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2398,7 +2415,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score51"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2424,7 +2441,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image52"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -2433,7 +2450,7 @@
                         android:src="@drawable/fiftytwo_zelda_collector" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox52"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2445,7 +2462,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score52"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2457,7 +2474,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc52"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -2480,7 +2497,7 @@
                         android:src="@drawable/fiftythree_red_red_ps3" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox53"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2492,7 +2509,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score53"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2518,7 +2535,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image54"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -2527,7 +2544,7 @@
                         android:src="@drawable/fiftyfour_gran_turismo3" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox54"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2539,7 +2556,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score54"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2551,7 +2568,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc54"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -2574,7 +2591,7 @@
                         android:src="@drawable/fiftyfive_halo2" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox55"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2612,7 +2629,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image56"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -2621,7 +2638,7 @@
                         android:src="@drawable/fiftysix_zelda4swords" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox56"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2633,7 +2650,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score56"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2645,7 +2662,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc56"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -2668,7 +2685,7 @@
                         android:src="@drawable/fiftyseven_zelda_mm" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox57"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2680,7 +2697,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score57"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2706,7 +2723,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image58"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -2715,7 +2732,7 @@
                         android:src="@drawable/fiftyeight_tlos" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox58"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2727,7 +2744,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score58"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2739,7 +2756,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc58"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -2762,7 +2779,7 @@
                         android:src="@drawable/fiftynine_zelda_tp" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox59"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2774,7 +2791,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score59"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2800,7 +2817,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image60"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -2809,7 +2826,7 @@
                         android:src="@drawable/sixty_madden2003" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox60"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2821,7 +2838,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score60"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2833,7 +2850,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc60"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -2856,7 +2873,7 @@
                         android:src="@drawable/sixtyone_thps2_gba" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox61"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2868,7 +2885,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score61"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2894,7 +2911,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image62"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -2903,7 +2920,7 @@
                         android:src="@drawable/sixtytwo_persona5" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox62"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2915,7 +2932,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score62"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2927,7 +2944,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc62"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -2950,7 +2967,7 @@
                         android:src="@drawable/sixtythree_tlour_ps4" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox63"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2962,7 +2979,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score63"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -2988,7 +3005,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image64"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -2997,7 +3014,7 @@
                         android:src="@drawable/sixtyfour_portal2" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox64"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3009,7 +3026,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score64"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3021,7 +3038,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc64"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -3044,7 +3061,7 @@
                         android:src="@drawable/sixtyfive_red_dead" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox65"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3056,7 +3073,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score65"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3082,7 +3099,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image66"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -3091,7 +3108,7 @@
                         android:src="@drawable/sixtysix_portal2_xbox" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox66"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3103,7 +3120,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score66"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3115,7 +3132,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc66"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -3138,7 +3155,7 @@
                         android:src="@drawable/sixtyseven_phantom_pain" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox67"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3150,7 +3167,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score67"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3176,7 +3193,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image68"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -3185,7 +3202,7 @@
                         android:src="@drawable/sixtyeight_eldenring_pc" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox68"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3197,7 +3214,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score68"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3209,7 +3226,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/scoredesc78"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -3232,7 +3249,7 @@
                         android:src="@drawable/sixtynine_portal2_ps3" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox69"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3244,7 +3261,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score69"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3270,7 +3287,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image70"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -3279,7 +3296,7 @@
                         android:src="@drawable/seventy_tetris" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox70"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3291,7 +3308,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score70"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3303,7 +3320,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc70"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -3326,7 +3343,7 @@
                         android:src="@drawable/seventyone_world_of_goo" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox71"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3338,7 +3355,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score71"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3364,7 +3381,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image72"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -3373,7 +3390,7 @@
                         android:src="@drawable/seventytwo_skyrim_pc" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox72"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3385,7 +3402,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score72"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3397,7 +3414,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc72"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -3420,7 +3437,7 @@
                         android:src="@drawable/seventythree_bioshock_infinite_ps3" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox73"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3432,7 +3449,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score73"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3458,7 +3475,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image74"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -3467,7 +3484,7 @@
                         android:src="@drawable/seventyfour_final_fantasy9" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox74"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3479,7 +3496,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score74"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3491,7 +3508,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc74"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -3514,7 +3531,7 @@
                         android:src="@drawable/seventyfive_codmw_ps3" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox75"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3526,7 +3543,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score75"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3552,7 +3569,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image76"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -3561,7 +3578,7 @@
                         android:src="@drawable/seventysix_god_of_war" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox76"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3573,7 +3590,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score76"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3585,7 +3602,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc76"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -3608,7 +3625,7 @@
                         android:src="@drawable/seventyseven_tony_hawk4" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox77"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3620,7 +3637,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score77"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3646,7 +3663,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image78"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -3655,7 +3672,7 @@
                         android:src="@drawable/seventyeight_dmc" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox78"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3667,7 +3684,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score78"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3679,7 +3696,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc78"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -3702,7 +3719,7 @@
                         android:src="@drawable/seventynine_cod4" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox79"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3714,7 +3731,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score79"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3740,7 +3757,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image80"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -3749,7 +3766,7 @@
                         android:src="@drawable/eighty_madden2002" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox80"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3761,7 +3778,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score80"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3773,7 +3790,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc80"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -3796,7 +3813,7 @@
                         android:src="@drawable/eightyone_batman_xbox" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox81"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3808,7 +3825,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score81"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3834,7 +3851,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image82"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -3843,7 +3860,7 @@
                         android:src="@drawable/eightytwo_mass_efftect2" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox82"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3855,7 +3872,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score82"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3867,7 +3884,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc82"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -3890,7 +3907,7 @@
                         android:src="@drawable/eightythree_zelda_oot_ds" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox83"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3902,7 +3919,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score83"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3917,7 +3934,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
+                    android:paddingEnd="5dp"
                     android:text="@string/release1"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -3928,16 +3945,16 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image84"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightyfour_chrono_cross" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox84"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3949,7 +3966,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score84"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -3961,7 +3978,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc84"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -3984,7 +4001,7 @@
                         android:src="@drawable/eightyfive_celeste" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox85"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3996,7 +4013,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score85"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4022,7 +4039,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image86"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -4031,7 +4048,7 @@
                         android:src="@drawable/eightysix_bioshock" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox86"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4043,7 +4060,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score86"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4055,7 +4072,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc86"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -4078,7 +4095,7 @@
                         android:src="@drawable/eightyseven_mass_effect2_ps3" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox87"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4090,7 +4107,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score87"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4116,7 +4133,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image88"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -4125,7 +4142,7 @@
                         android:src="@drawable/eightyeight_gta_vc" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox88"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4137,7 +4154,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score88"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4149,7 +4166,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc88"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -4172,7 +4189,7 @@
                         android:src="@drawable/eightynine_madden2004" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox89"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4184,7 +4201,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score89"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4210,7 +4227,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image90"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -4219,7 +4236,7 @@
                         android:src="@drawable/ninety_gow" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox90"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4231,7 +4248,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score90"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4243,7 +4260,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc90"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -4266,7 +4283,7 @@
                         android:src="@drawable/ninetyone_oblivion_xbox" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox91"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4278,7 +4295,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score91"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4304,7 +4321,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image92"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -4313,7 +4330,7 @@
                         android:src="@drawable/ninetytwo_civ2" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox92"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4325,7 +4342,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score92"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4337,7 +4354,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc92"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -4360,7 +4377,7 @@
                         android:src="@drawable/ninetythree_quake" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox93"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4372,7 +4389,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score93"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4398,7 +4415,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image94"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -4407,7 +4424,7 @@
                         android:src="@drawable/ninetyfour_cod4_xbox" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox94"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4419,7 +4436,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score94"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4431,7 +4448,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc94"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -4449,12 +4466,12 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetyfive_bioshock_infinite" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox95"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4466,7 +4483,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score95"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4492,7 +4509,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image96"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -4501,7 +4518,7 @@
                         android:src="@drawable/ninetysix_halo3" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox96"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4513,7 +4530,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score96"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4525,7 +4542,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc96"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -4548,7 +4565,7 @@
                         android:src="@drawable/ninetyseven_ninja_gaiden" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox97"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4560,7 +4577,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score97"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4586,7 +4603,7 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image98"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
@@ -4595,7 +4612,7 @@
                         android:src="@drawable/ninetyeiight_oblivion" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox98"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4607,7 +4624,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score98"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4619,7 +4636,7 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/score2"
+                    android:id="@+id/desc98"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -4642,7 +4659,7 @@
                         android:src="@drawable/ninetynine_streetfighter4" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox1"
+                        android:id="@+id/androidCheckBox99"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4654,7 +4671,7 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score0"
+                        android:id="@+id/score99"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
@@ -4669,7 +4686,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
+                    android:paddingEnd="5dp"
                     android:text="@string/release1"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -4680,16 +4697,16 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/image1"
+                        android:id="@+id/image100"
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/onehundread_mario3" />
 
                     <CheckBox
-                        android:id="@+id/androidCheckBox"
+                        android:id="@+id/androidCheckBox100"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4701,12 +4718,12 @@
                         android:textSize="20sp" />
 
                     <TextView
-                        android:id="@+id/score1"
+                        android:id="@+id/score100"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />

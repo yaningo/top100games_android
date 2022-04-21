@@ -124,16 +124,16 @@
     <string name="thirtyeight_fm">38. The House in Fata Morgana - Dreams of the Revenants Edition -</string>
     <string name="release36">Platform: PlayStation Release Date: September 20, 2000</string>
 
-    <string name="thirtynine_ztp">37. The Legend of Zelda: Twilight Princess</string>
+    <string name="thirtynine_ztp">39. The Legend of Zelda: Twilight Princess</string>
     <string name="release37">Platform: PlayStation Release Date: September 20, 2000</string>
 
-    <string name="forty_skyrim">39. The Elder Scrolls V: Skyrim</string>
+    <string name="forty_skyrim">40. The Elder Scrolls V: Skyrim</string>
     <string name="release39">Platform: PlayStation Release Date: September 20, 2000</string>
 
-    <string name="fourtyone_hl">40. Half-Life</string>
+    <string name="fourtyone_hl">41. Half-Life</string>
     <string name="release40">Platform: PlayStation Release Date: September 20, 2000</string>
 
-    <string name="fourtytwo_re4_2">41. Resident Evil 4</string>
+    <string name="fourtytwo_re4_2">42. Resident Evil 4</string>
     <string name="release41">Platform: PlayStation Release Date: September 20, 2000</string>
 
     <string name="fourtythree_zww">43. The Legend of Zelda: The Wind Waker</string>
@@ -311,4 +311,5 @@
     <string name="release100">Platform: PlayStation Release Date: September 20, 2000</string>
 
     <string name="zelda_oot">1. The Legend of Zelda: Ocarina of Time</string>
+    <string name="todo">TODO</string>
 </resources>
