@@ -73,6 +73,8 @@ jobs:
     - run:
         command: |
           adb bugreport ./bugreport.zip
+    - store_artifacts:
+          path: ./bugreport.zip
     - run:
         command: |
           adb devices | grep emulator | cut -f1 | while read line; do adb -s $line emu kill; done
