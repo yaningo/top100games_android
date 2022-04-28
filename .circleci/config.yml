@@ -4,7 +4,6 @@ jobs:
   build-and-test:
     machine:
       image: android:202102-01
-    resouce_class: owenjoliver/ec2_mac
     
     steps:
     - checkout
@@ -85,7 +84,7 @@ jobs:
         name: Assemble release build
         command: |
           ./gradlew assembleRelease
-    resource_class: large
+    resource_class: owenjoliver/ec2_mac
 workflows:
   sample:
     jobs:
