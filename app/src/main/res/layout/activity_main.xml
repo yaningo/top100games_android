@@ -32,8 +32,7 @@
                         android:paddingStart="5dp"
                         android:paddingEnd="5dp"
                         android:paddingTop="5dp"
-                        android:src="@drawable/one_zelda_oot"
-                        android:contentDescription="@string/todo" />
+                        android:src="@drawable/one_zelda_oot" />
 
                     <CheckBox
                         android:id="@+id/image1"
@@ -166,7 +165,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release1"
+                    android:text="@string/release3"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -181,6 +180,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/four_soulcalibur" />
 
@@ -216,7 +216,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release2"
+                    android:text="@string/release4"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -230,6 +230,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/five_gta4_xbox" />
 
@@ -264,7 +265,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release1"
+                    android:text="@string/release5"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -279,6 +280,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/six_mario_galaxy" />
 
@@ -314,7 +316,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release2"
+                    android:text="@string/release6"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -328,6 +330,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seven_mario_galaxy2" />
 
@@ -362,7 +365,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release1"
+                    android:text="@string/release7"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -376,7 +379,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eight_redred2_xbox" />
 
@@ -398,7 +402,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -409,8 +414,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:text="@string/release8"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -424,6 +430,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/nine_gta5_xbox" />
 
@@ -446,6 +453,7 @@
                         android:layout_weight=".10"
                         android:gravity="center"
                         android:paddingEnd="5dp"
+                        android:paddingStart="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -455,8 +463,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:text="@string/release9"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -471,6 +480,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ten_gta5_ps3" />
 
@@ -492,7 +502,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -503,8 +514,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release10"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -517,7 +529,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eleven_detfc" />
 
@@ -539,7 +552,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -549,8 +563,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release11"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -564,7 +579,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twelve_gta5_xbox360" />
 
@@ -586,7 +602,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -597,8 +614,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release12"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -611,7 +629,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirteen_tony_hawk_dc" />
 
@@ -633,7 +652,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -643,8 +663,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release13"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -658,7 +679,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fourteen_zelda_botw" />
 
@@ -680,7 +702,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -691,8 +714,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release14"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -706,6 +730,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fifteen_th3" />
 
@@ -727,7 +752,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -737,8 +763,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release15"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -752,7 +779,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixteen_perfect_dark" />
 
@@ -774,7 +802,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -785,8 +814,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release16"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -799,7 +829,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventeen_red_dead2" />
 
@@ -821,7 +852,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -831,8 +863,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release17"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -846,7 +879,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eighteen_gta5_ps4" />
 
@@ -868,7 +902,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -879,8 +914,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release18"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -893,7 +929,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/nineteen_metroid_prime" />
 
@@ -915,7 +952,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -925,8 +963,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release19"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -940,7 +979,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twenty_gta3_ps2" />
 
@@ -962,7 +1002,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -973,8 +1014,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release20"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -987,7 +1029,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentyone_mario_odyssey" />
 
@@ -1009,7 +1052,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1019,8 +1063,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release21"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1034,7 +1079,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentytwo_halo" />
 
@@ -1056,7 +1102,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1067,8 +1114,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release22"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1081,7 +1129,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentythree_nfl2001" />
 
@@ -1103,7 +1152,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1113,8 +1163,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release23"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1128,7 +1179,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentyfour_half_life2" />
 
@@ -1150,7 +1202,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1161,8 +1214,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release24"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1175,7 +1229,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentyfive_gta5_pc" />
 
@@ -1197,7 +1252,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1207,8 +1263,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release25"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1222,7 +1279,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentysix_zelda_botw_wiiu" />
 
@@ -1244,7 +1302,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1255,8 +1314,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release2"
+                    android:text="@string/release26"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1292,7 +1352,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1302,8 +1363,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release27"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1317,7 +1379,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentyeight_james_bond_007" />
 
@@ -1339,7 +1402,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1350,8 +1414,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release28"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1364,7 +1429,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentynine_uncharted2" />
 
@@ -1386,6 +1452,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
+                        android:paddingStart="5dp"
                         android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
@@ -1396,8 +1463,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release29"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1411,7 +1479,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirty_elden_ring_ps5" />
 
@@ -1433,7 +1502,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1444,8 +1514,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release30"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1458,7 +1529,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtyone_re4_gc" />
 
@@ -1480,7 +1552,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1490,8 +1563,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release31"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1505,7 +1579,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtytwo_orange_box_xbox" />
 
@@ -1527,7 +1602,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1538,8 +1614,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release32"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1552,7 +1629,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtythree_orange_box" />
 
@@ -1574,7 +1652,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1584,8 +1663,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release33"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1599,7 +1679,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtyfour_batman_ps3" />
 
@@ -1621,7 +1702,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1632,8 +1714,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release34"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1646,7 +1729,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtyfive_tekken3" />
 
@@ -1668,7 +1752,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1678,8 +1763,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release35"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1693,7 +1779,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtysix_elden_ring_xbox" />
 
@@ -1715,7 +1802,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1726,8 +1814,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release36"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1740,7 +1829,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtyseven_mass_effect2_xbox" />
 
@@ -1762,7 +1852,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1772,8 +1863,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release37"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1787,7 +1879,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtyeight_morgana" />
 
@@ -1809,7 +1902,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1820,8 +1914,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release38"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1834,7 +1929,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtynine_zelda_tp" />
 
@@ -1856,7 +1952,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1866,8 +1963,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release39"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1881,7 +1979,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/forty_skyrim" />
 
@@ -1903,7 +2002,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1914,8 +2014,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release40"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1928,7 +2029,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortyone_half_life" />
 
@@ -1950,7 +2052,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1960,8 +2063,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1975,7 +2079,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortytwo_re4" />
 
@@ -1997,7 +2102,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2008,8 +2114,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release42"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2022,7 +2129,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortythree_zelda_ww_gc" />
 
@@ -2044,7 +2152,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2054,8 +2163,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release43"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2069,7 +2179,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortyfour_gt" />
 
@@ -2091,7 +2202,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2102,8 +2214,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release44"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2116,7 +2229,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortyfive_bioshock_pc" />
 
@@ -2138,7 +2252,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2148,8 +2263,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release45"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2163,7 +2279,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortysix_mgs2" />
 
@@ -2185,7 +2302,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2196,8 +2314,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release46"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2210,7 +2329,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortyseven_gta3sa" />
 
@@ -2232,7 +2352,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2242,8 +2363,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release47"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2257,7 +2379,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortyeight_balders_gate2" />
 
@@ -2279,7 +2402,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2290,8 +2414,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release48"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2304,7 +2429,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortynine_gtasa_ps2" />
 
@@ -2326,7 +2452,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2336,8 +2463,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release49"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2351,7 +2479,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fifty_gtavc_ps2" />
 
@@ -2373,7 +2502,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2384,8 +2514,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release50"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2398,7 +2529,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftyone_lbp" />
 
@@ -2420,7 +2552,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2430,8 +2563,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release51"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2445,7 +2579,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftytwo_zelda_collector" />
 
@@ -2467,7 +2602,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2478,8 +2614,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release52"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2492,7 +2629,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftythree_red_red_ps3" />
 
@@ -2514,7 +2652,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2524,8 +2663,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release53"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2539,7 +2679,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftyfour_gran_turismo3" />
 
@@ -2561,7 +2702,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2572,8 +2714,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release54"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2586,7 +2729,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftyfive_halo2" />
 
@@ -2608,7 +2752,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2618,8 +2763,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release55"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2633,7 +2779,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftysix_zelda4swords" />
 
@@ -2655,7 +2802,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2666,8 +2814,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release56"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2680,7 +2829,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftyseven_zelda_mm" />
 
@@ -2702,7 +2852,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2712,8 +2863,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release57"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2727,7 +2879,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftyeight_tlos" />
 
@@ -2749,7 +2902,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2760,8 +2914,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release58"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2774,7 +2929,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftynine_zelda_tp" />
 
@@ -2796,7 +2952,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2806,8 +2963,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release59"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2821,7 +2979,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixty_madden2003" />
 
@@ -2843,7 +3002,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2854,8 +3014,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release60"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2868,7 +3029,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtyone_thps2_gba" />
 
@@ -2890,7 +3052,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2900,8 +3063,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release61"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2915,7 +3079,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtytwo_persona5" />
 
@@ -2937,7 +3102,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2948,8 +3114,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release62"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2962,7 +3129,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtythree_tlour_ps4" />
 
@@ -2984,7 +3152,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2994,8 +3163,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release63"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3009,7 +3179,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtyfour_portal2" />
 
@@ -3031,7 +3202,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3042,8 +3214,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release64"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3056,7 +3229,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtyfive_red_dead" />
 
@@ -3078,7 +3252,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3088,8 +3263,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release65"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3103,7 +3279,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtysix_portal2_xbox" />
 
@@ -3125,7 +3302,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3136,8 +3314,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release66"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3150,7 +3329,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtyseven_phantom_pain" />
 
@@ -3172,7 +3352,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3182,8 +3363,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release67"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3197,7 +3379,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtyeight_eldenring_pc" />
 
@@ -3219,7 +3402,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_eight"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3230,8 +3414,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release68"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3244,7 +3429,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtynine_portal2_ps3" />
 
@@ -3266,7 +3452,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3276,8 +3463,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release69"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3291,7 +3479,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventy_tetris" />
 
@@ -3313,7 +3502,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3324,8 +3514,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release70"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3338,7 +3529,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventyone_world_of_goo" />
 
@@ -3360,7 +3552,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3370,8 +3563,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release71"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3385,7 +3579,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventytwo_skyrim_pc" />
 
@@ -3407,7 +3602,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3418,8 +3614,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release72"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3432,7 +3629,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventythree_bioshock_infinite_ps3" />
 
@@ -3454,7 +3652,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3464,8 +3663,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release73"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3479,7 +3679,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventyfour_final_fantasy9" />
 
@@ -3501,7 +3702,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3512,8 +3714,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release74"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3526,7 +3729,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventyfive_codmw_ps3" />
 
@@ -3548,7 +3752,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3558,8 +3763,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release75"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3573,7 +3779,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventysix_god_of_war" />
 
@@ -3595,7 +3802,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3606,8 +3814,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release76"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3620,7 +3829,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventyseven_tony_hawk4" />
 
@@ -3642,7 +3852,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3652,8 +3863,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release77"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3667,7 +3879,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventyeight_dmc" />
 
@@ -3689,7 +3902,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3700,8 +3914,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release78"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3714,7 +3929,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventynine_cod4" />
 
@@ -3736,7 +3952,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3746,8 +3963,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release79"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3761,7 +3979,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eighty_madden2002" />
 
@@ -3783,7 +4002,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3794,8 +4014,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release80"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3808,7 +4029,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightyone_batman_xbox" />
 
@@ -3830,7 +4052,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3840,8 +4063,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release81"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3855,7 +4079,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightytwo_mass_efftect2" />
 
@@ -3877,7 +4102,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3888,8 +4114,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release82"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3902,7 +4129,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightythree_zelda_oot_ds" />
 
@@ -3924,7 +4152,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3934,8 +4163,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release1"
+                    android:text="@string/release83"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3950,6 +4180,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightyfour_chrono_cross" />
 
@@ -3971,7 +4202,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3982,8 +4214,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release84"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3996,7 +4229,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightyfive_celeste" />
 
@@ -4018,7 +4252,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4028,8 +4263,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release85"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4043,7 +4279,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightysix_bioshock" />
 
@@ -4065,7 +4302,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4076,8 +4314,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release86"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4090,7 +4329,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightyseven_mass_effect2_ps3" />
 
@@ -4112,7 +4352,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4122,8 +4363,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release87"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4137,7 +4379,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightyeight_gta_vc" />
 
@@ -4159,7 +4402,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4170,8 +4414,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release88"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4184,7 +4429,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightynine_madden2004" />
 
@@ -4206,7 +4452,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4216,8 +4463,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release89"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4231,7 +4479,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninety_gow" />
 
@@ -4253,7 +4502,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4264,8 +4514,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release90"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4278,7 +4529,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetyone_oblivion_xbox" />
 
@@ -4300,7 +4552,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4310,8 +4563,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release91"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4325,7 +4579,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetytwo_civ2" />
 
@@ -4347,7 +4602,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4358,8 +4614,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release92"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4372,7 +4629,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetythree_quake" />
 
@@ -4394,7 +4652,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4404,8 +4663,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release93"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4419,7 +4679,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetyfour_cod4_xbox" />
 
@@ -4441,7 +4702,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4452,8 +4714,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release94"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4467,6 +4730,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetyfive_bioshock_infinite" />
 
@@ -4488,7 +4752,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4498,8 +4763,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release95"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4513,7 +4779,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetysix_halo3" />
 
@@ -4535,7 +4802,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4546,8 +4814,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release96"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4560,7 +4829,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetyseven_ninja_gaiden" />
 
@@ -4582,7 +4852,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4592,8 +4863,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release97"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4607,7 +4879,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetyeiight_oblivion" />
 
@@ -4629,7 +4902,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4640,8 +4914,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release98"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4654,7 +4929,8 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetynine_streetfighter4" />
 
@@ -4676,7 +4952,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4686,8 +4963,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release1"
+                    android:text="@string/release99"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4702,6 +4980,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/onehundread_mario3" />
 
@@ -4723,11 +5002,22 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
+                        android:paddingStart="5dp"
                         android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release100"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
