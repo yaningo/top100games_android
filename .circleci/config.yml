@@ -1,92 +1,27 @@
-# Orb 'circleci/android@1.0.3' resolved to 'circleci/android@1.0.3'
-version: 2
+version: 2.1
+
+orbs:
+  win: circleci/windows@2.4.0
+
 jobs:
-  build-and-test:
+  debug-cloud-init:
     machine:
-      image: android:202102-01
-    
+      image: ubuntu-2004:current
+    resource_class: medium
     steps:
-    - checkout
-    - run:
-        command: chmod +x gradlew
-    - run:
-        command: |
-          sdkmanager "system-images;android-25;google_apis;x86"
-        name: Install system image "system-images;android-25;google_apis;x86"
-    - run:
-        command: "echo \"no\" | avdmanager --verbose create avd -n \"test\" -k \"system-images;android-25;google_apis;x86\" \n"
-        name: Create avd "test"
-    - run:
-        background: true
-        command: "if [ -n \"\" ]; then\n  echo \"override-args parameter was supplied; orb defaults will be overridden\"\n  emulator -avd test \nelse\n  if [ \"true\" == \"true\" ]; then\n    set -- \"$@\" -no-window\n  fi\n  if [ \"true\" == \"true\" ]; then\n    set -- \"$@\" -no-audio\n  fi\n  if [ \"true\" == \"true\" ]; then\n    set -- \"$@\" -no-boot-anim\n  fi\n  if [ \"true\" == \"true\" ]; then\n    set -- \"$@\" -verbose\n  fi\n  if [ \"true\" == \"true\" ]; then\n    set -- \"$@\" -no-snapshot\n  fi\n  if [ \"false\" == \"true\" ]; then\n    set -- \"$@\" -delay-adb\n  fi\n  if [ \"-1\" != \"-1\" ]; then\n    set -- \"$@\" -memory -1\n  fi\n  if [ -n \"swiftshader_indirect\" ]; then\n    set -- \"$@\" -gpu \"swiftshader_indirect\"\n  fi\n  if [ -n \"\" ]; then\n    set -- \"$@\" -camera-front \"\"\n  fi\n  if [ -n \"\" ]; then\n    set -- \"$@\" -camera-back \"\"\n  fi\n  echo \"Starting emulator with arguments $@ \"\n  emulator -avd test \"$@\" \nfi\n"
-        name: Start emulator
-    - run:
-        command: |
-          find . -name 'build.gradle' | sort | xargs cat |
-          shasum | awk '{print $1}' > /tmp/gradle_cache_seed
-        name: Generate cache checksum
-    - restore_cache:
-        key: gradle-v1-{{ arch }}-{{ checksum "/tmp/gradle_cache_seed" }}
-        name: Restore gradle cache
-    - run:
-        command: |
-          # This is meant to do something useful in parallel with the emulator
-          # starting up, like assembling the app, which is required for UI tests
-          ./gradlew assembleDebugAndroidTest
-        name: 'Run: ./gradlew assembleDebugAndroidTest'
-    - run:
-        command: |
-          circle-android wait-for-boot
-        name: Wait for the emulator to start
-    - run:
-        command: |
-          adb shell settings put global window_animation_scale 0.0
-          adb shell settings put global transition_animation_scale 0.0
-          adb shell settings put global animator_duration_scale 0.0
-        name: Disable emulator animations
-    - run:
-        command: |
-          run_with_retry() {
-              MAX_TRIES=2
-              n=1
-              until [ $n -gt $MAX_TRIES ]
-              do
-                echo "Starting test attempt $n"
-                ./gradlew connectedDebugAndroidTest && break
-                n=$[$n+1]
-                sleep 5
-              done
-              if [ $n -gt $MAX_TRIES ]; then
-                echo "Max tries reached (2)"
-                exit 1
-              fi
-          }
-          run_with_retry
-        name: Run tests with max tries of 2
-        no_output_timeout: 10m
-        working_directory: .
-    - save_cache:
-        key: gradle-v1-{{ arch }}-{{ checksum "/tmp/gradle_cache_seed" }}
-        name: Save gradle cache
-        paths:
-        - ~/.gradle/caches
-        - ~/.gradle/wrapper
-    - run:
-        command: |
-          adb bugreport ./bugreport.zip
-    - store_artifacts:
-          path: ./bugreport.zip
-    - run:
-        command: |
-          adb devices | grep emulator | cut -f1 | while read line; do adb -s $line emu kill; done
-        name: Kill any running emulators
-    - run:
-        name: Assemble release build
-        command: |
-          ./gradlew assembleRelease
-    resource_class: owenjoliver/ec2_mac
+      - run:
+          name: Profile CPU and memory every 5s (background)
+          command: |
+            while true; do
+              sleep 5
+              uptime
+              cloud-init status 
+              top -b -c -n 1
+              echo "======"
+            done
+
+
 workflows:
-  sample:
+  build:
     jobs:
-    - build-and-test
-  version: 2
+      - debug-cloud-init
