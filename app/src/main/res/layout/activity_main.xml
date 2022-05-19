@@ -32,11 +32,11 @@
                         android:paddingStart="5dp"
                         android:paddingEnd="5dp"
                         android:paddingTop="5dp"
-                        android:src="@drawable/one_zelda_oot"
-                        android:contentDescription="@string/todo" />
+                        android:src="@drawable/one_zelda_oot" />
 
                     <CheckBox
-                        android:id="@+id/image1"
+                        android:id="@+id/androidCheckBox1"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -87,6 +87,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox2"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -137,6 +138,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox3"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -166,7 +168,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release1"
+                    android:text="@string/release3"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -181,11 +183,13 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/four_soulcalibur" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox4"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -216,7 +220,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release2"
+                    android:text="@string/release4"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -230,11 +234,13 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/five_gta4_xbox" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox5"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -264,7 +270,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release1"
+                    android:text="@string/release5"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -279,11 +285,13 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/six_mario_galaxy" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox6"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -314,7 +322,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release2"
+                    android:text="@string/release6"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -328,11 +336,13 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seven_mario_galaxy2" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox7"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -362,7 +372,7 @@
                     android:gravity="center"
                     android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release1"
+                    android:text="@string/release7"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -376,12 +386,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eight_redred2_xbox" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox8"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -398,7 +410,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -409,8 +422,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:text="@string/release8"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -424,11 +438,13 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/nine_gta5_xbox" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox9"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -446,6 +462,7 @@
                         android:layout_weight=".10"
                         android:gravity="center"
                         android:paddingEnd="5dp"
+                        android:paddingStart="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -455,8 +472,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:text="@string/release9"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -471,11 +489,13 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ten_gta5_ps3" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox10"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -492,7 +512,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -503,8 +524,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release10"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -517,12 +539,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eleven_detfc" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox11"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -539,7 +563,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -549,8 +574,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release11"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -564,12 +590,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twelve_gta5_xbox360" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox12"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -586,7 +614,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -597,8 +626,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release12"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -611,12 +641,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirteen_tony_hawk_dc" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox13"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -633,7 +665,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -643,8 +676,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release13"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -658,12 +692,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fourteen_zelda_botw" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox14"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -680,7 +716,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -691,8 +728,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release14"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -706,11 +744,13 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fifteen_th3" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox15"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -727,7 +767,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -737,8 +778,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release15"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -752,12 +794,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixteen_perfect_dark" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox16"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -774,7 +818,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -785,8 +830,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release16"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -799,12 +845,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventeen_red_dead2" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox17"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -821,7 +869,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -831,8 +880,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release17"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -846,12 +896,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eighteen_gta5_ps4" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox18"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -868,7 +920,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -879,8 +932,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release18"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -893,12 +947,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/nineteen_metroid_prime" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox19"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -915,7 +971,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -925,8 +982,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release19"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -940,12 +998,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twenty_gta3_ps2" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox20"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -962,7 +1022,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -973,8 +1034,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release20"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -987,12 +1049,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentyone_mario_odyssey" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox21"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1009,7 +1073,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1019,8 +1084,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release21"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1034,12 +1100,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentytwo_halo" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox22"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1056,7 +1124,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1067,8 +1136,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release22"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1081,12 +1151,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentythree_nfl2001" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox23"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1103,7 +1175,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_seven"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1113,8 +1186,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release23"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1128,12 +1202,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentyfour_half_life2" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox24"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1150,7 +1226,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1161,8 +1238,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release24"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1175,12 +1253,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentyfive_gta5_pc" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox25"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1197,7 +1277,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1207,8 +1288,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release25"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1222,12 +1304,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentysix_zelda_botw_wiiu" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox26"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1244,7 +1328,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1255,8 +1340,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release2"
+                    android:text="@string/release26"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1276,6 +1362,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox27"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1292,7 +1379,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1302,8 +1390,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release27"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1317,12 +1406,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentyeight_james_bond_007" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox28"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1339,7 +1430,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1350,8 +1442,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release28"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1364,12 +1457,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/twentynine_uncharted2" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox29"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1386,6 +1481,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
+                        android:paddingStart="5dp"
                         android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
@@ -1396,8 +1492,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release29"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1411,12 +1508,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirty_elden_ring_ps5" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox30"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1433,7 +1532,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1444,8 +1544,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release30"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1458,12 +1559,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtyone_re4_gc" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox31"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1480,7 +1583,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1490,8 +1594,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release31"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1505,12 +1610,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtytwo_orange_box_xbox" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox32"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1527,7 +1634,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1538,8 +1646,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release32"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1552,12 +1661,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtythree_orange_box" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox33"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1574,7 +1685,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1584,8 +1696,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release33"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1599,12 +1712,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtyfour_batman_ps3" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox34"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1621,7 +1736,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1632,8 +1748,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release34"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1646,12 +1763,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtyfive_tekken3" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox35"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1668,7 +1787,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1678,8 +1798,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release35"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1693,12 +1814,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtysix_elden_ring_xbox" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox36"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1715,7 +1838,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1726,8 +1850,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release36"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1740,12 +1865,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtyseven_mass_effect2_xbox" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox37"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1762,7 +1889,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1772,8 +1900,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release37"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1787,12 +1916,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtyeight_morgana" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox38"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1809,7 +1940,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1820,8 +1952,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release38"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1834,12 +1967,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/thirtynine_zelda_tp" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox39"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1856,7 +1991,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1866,8 +2002,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release39"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1881,12 +2018,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/forty_skyrim" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox40"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1903,7 +2042,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1914,8 +2054,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release40"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1928,12 +2069,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortyone_half_life" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox41"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1950,7 +2093,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -1960,8 +2104,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release41"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -1975,12 +2120,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortytwo_re4" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox42"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1997,7 +2144,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2008,8 +2156,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release42"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2022,12 +2171,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortythree_zelda_ww_gc" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox43"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2044,7 +2195,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2054,8 +2206,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release43"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2069,12 +2222,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortyfour_gt" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox44"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2091,7 +2246,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2102,8 +2258,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release44"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2116,12 +2273,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortyfive_bioshock_pc" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox45"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2138,7 +2297,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2148,8 +2308,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release45"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2163,12 +2324,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortysix_mgs2" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox46"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2185,7 +2348,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2196,8 +2360,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release46"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2210,12 +2375,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortyseven_gta3sa" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox47"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2232,7 +2399,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2242,8 +2410,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release47"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2257,12 +2426,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortyeight_balders_gate2" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox48"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2279,7 +2450,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_six"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2290,8 +2462,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release48"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2304,12 +2477,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fortynine_gtasa_ps2" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox49"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2326,7 +2501,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2336,8 +2512,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release49"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2351,12 +2528,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fifty_gtavc_ps2" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox50"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2373,7 +2552,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2384,8 +2564,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release50"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2398,12 +2579,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftyone_lbp" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox51"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2420,7 +2603,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2430,8 +2614,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release51"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2445,12 +2630,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftytwo_zelda_collector" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox52"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2467,7 +2654,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2478,8 +2666,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release52"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2492,12 +2681,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftythree_red_red_ps3" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox53"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2514,7 +2705,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2524,8 +2716,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release53"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2539,12 +2732,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftyfour_gran_turismo3" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox54"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2561,7 +2756,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2572,8 +2768,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release54"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2586,12 +2783,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftyfive_halo2" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox55"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2608,7 +2807,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2618,8 +2818,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release55"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2633,12 +2834,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftysix_zelda4swords" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox56"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2655,7 +2858,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2666,8 +2870,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release56"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2680,12 +2885,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftyseven_zelda_mm" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox57"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2702,7 +2909,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2712,8 +2920,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release57"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2727,12 +2936,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftyeight_tlos" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox58"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2749,7 +2960,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2760,8 +2972,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release58"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2774,12 +2987,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/fiftynine_zelda_tp" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox59"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2796,7 +3011,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2806,8 +3022,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release59"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2821,12 +3038,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixty_madden2003" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox60"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2843,7 +3062,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2854,8 +3074,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release60"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2868,12 +3089,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtyone_thps2_gba" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox61"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2890,7 +3113,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2900,8 +3124,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release61"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2915,12 +3140,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtytwo_persona5" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox62"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2937,7 +3164,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2948,8 +3176,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release62"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -2962,12 +3191,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtythree_tlour_ps4" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox63"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2984,7 +3215,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2994,8 +3226,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release63"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3009,12 +3242,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtyfour_portal2" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox64"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3031,7 +3266,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3042,8 +3278,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release64"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3056,12 +3293,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtyfive_red_dead" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox65"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3078,7 +3317,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3088,8 +3328,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release65"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3103,12 +3344,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtysix_portal2_xbox" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox66"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3125,7 +3368,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3136,8 +3380,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release66"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3150,12 +3395,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtyseven_phantom_pain" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox67"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3172,7 +3419,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3182,8 +3430,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release67"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3197,12 +3446,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtyeight_eldenring_pc" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox68"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3219,7 +3470,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_eight"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3230,8 +3482,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release68"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3244,12 +3497,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/sixtynine_portal2_ps3" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox69"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3266,7 +3521,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_five"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3276,8 +3532,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release69"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3291,12 +3548,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventy_tetris" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox70"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3313,7 +3572,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3324,8 +3584,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release70"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3338,12 +3599,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventyone_world_of_goo" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox71"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3360,7 +3623,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3370,8 +3634,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release71"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3385,12 +3650,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventytwo_skyrim_pc" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox72"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3407,7 +3674,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3418,8 +3686,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release72"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3432,12 +3701,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventythree_bioshock_infinite_ps3" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox73"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3454,7 +3725,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3464,8 +3736,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release73"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3479,12 +3752,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventyfour_final_fantasy9" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox74"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3501,7 +3776,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3512,8 +3788,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release74"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3526,12 +3803,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventyfive_codmw_ps3" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox75"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3548,7 +3827,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3558,8 +3838,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release75"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3573,12 +3854,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventysix_god_of_war" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox76"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3595,7 +3878,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3606,8 +3890,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                    android:text="@string/release76"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3620,12 +3905,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventyseven_tony_hawk4" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox77"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3642,7 +3929,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3652,8 +3940,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release77"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3667,12 +3956,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventyeight_dmc" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox78"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3689,7 +3980,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3700,8 +3992,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release78"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3714,12 +4007,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/seventynine_cod4" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox79"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3736,7 +4031,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3746,8 +4042,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release79"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3761,12 +4058,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eighty_madden2002" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox80"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3783,7 +4082,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3794,8 +4094,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release80"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3808,12 +4109,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightyone_batman_xbox" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox81"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3830,7 +4133,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3840,8 +4144,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release81"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3855,12 +4160,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightytwo_mass_efftect2" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox82"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3877,7 +4184,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3888,8 +4196,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release82"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3902,12 +4211,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightythree_zelda_oot_ds" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox83"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3924,7 +4235,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3934,8 +4246,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release1"
+                    android:text="@string/release83"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3950,11 +4263,13 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightyfour_chrono_cross" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox84"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3971,7 +4286,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -3982,8 +4298,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release84"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -3996,12 +4313,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightyfive_celeste" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox85"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4018,7 +4337,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4028,8 +4348,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release85"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4043,12 +4364,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightysix_bioshock" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox86"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4065,7 +4388,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4076,8 +4400,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release86"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4090,12 +4415,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightyseven_mass_effect2_ps3" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox87"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4112,7 +4439,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4122,8 +4450,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release87"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4137,12 +4466,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightyeight_gta_vc" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox88"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4159,7 +4490,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4170,8 +4502,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release88"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4184,12 +4517,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/eightynine_madden2004" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox89"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4206,7 +4541,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4216,8 +4552,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release89"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4231,12 +4568,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninety_gow" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox90"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4253,7 +4592,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4264,8 +4604,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release90"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4278,12 +4619,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetyone_oblivion_xbox" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox91"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4300,7 +4643,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4310,8 +4654,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release91"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4325,12 +4670,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetytwo_civ2" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox92"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4347,7 +4694,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4358,8 +4706,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release92"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4372,12 +4721,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetythree_quake" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox93"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4394,7 +4745,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4404,8 +4756,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release93"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4419,12 +4772,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetyfour_cod4_xbox" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox94"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4441,7 +4796,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4452,8 +4808,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release94"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4467,11 +4824,13 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetyfive_bioshock_infinite" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox95"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4488,7 +4847,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4498,8 +4858,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release95"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4513,12 +4874,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetysix_halo3" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox96"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4535,7 +4898,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4546,8 +4910,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release96"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4560,12 +4925,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetyseven_ninja_gaiden" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox97"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4582,7 +4949,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4592,8 +4960,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release1"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release97"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4607,12 +4976,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetyeiight_oblivion" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox98"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4629,7 +5000,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4640,8 +5012,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingRight="5dp"
-                    android:text="@string/release2"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release98"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4654,12 +5027,14 @@
                         android:layout_width="10dp"
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
-                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ninetynine_streetfighter4" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox99"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4676,7 +5051,8 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
-                        android:paddingRight="5dp"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -4686,8 +5062,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:paddingStart="5dp"
                     android:paddingEnd="5dp"
-                    android:text="@string/release1"
+                    android:text="@string/release99"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -4702,11 +5079,13 @@
                         android:layout_height="match_parent"
                         android:layout_weight=".20"
                         android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/onehundread_mario3" />
 
                     <CheckBox
                         android:id="@+id/androidCheckBox100"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4723,11 +5102,22 @@
                         android:layout_height="wrap_content"
                         android:layout_weight=".10"
                         android:gravity="center"
+                        android:paddingStart="5dp"
                         android:paddingEnd="5dp"
                         android:text="@string/nighty_four"
                         android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/release100"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
