@@ -35,7 +35,8 @@
                         android:src="@drawable/one_zelda_oot" />
 
                     <CheckBox
-                        android:id="@+id/image1"
+                        android:id="@+id/androidCheckBox1"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -86,6 +87,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox2"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -136,6 +138,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox3"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -186,6 +189,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox4"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -236,6 +240,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox5"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -286,6 +291,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox6"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -336,6 +342,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox7"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -386,6 +393,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox8"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -436,6 +444,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox9"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -486,6 +495,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox10"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -536,6 +546,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox11"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -586,6 +597,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox12"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -636,6 +648,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox13"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -686,6 +699,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox14"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -736,6 +750,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox15"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -786,6 +801,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox16"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -836,6 +852,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox17"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -886,6 +903,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox18"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -936,6 +954,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox19"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -986,6 +1005,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox20"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1036,6 +1056,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox21"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1086,6 +1107,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox22"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1136,6 +1158,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox23"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1186,6 +1209,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox24"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1236,6 +1260,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox25"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1286,6 +1311,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox26"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1336,6 +1362,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox27"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1386,6 +1413,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox28"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1436,6 +1464,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox29"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1486,6 +1515,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox30"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1536,6 +1566,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox31"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1586,6 +1617,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox32"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1636,6 +1668,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox33"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1686,6 +1719,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox34"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1736,6 +1770,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox35"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1786,6 +1821,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox36"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1836,6 +1872,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox37"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1886,6 +1923,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox38"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1936,6 +1974,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox39"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -1986,6 +2025,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox40"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2036,6 +2076,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox41"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2086,6 +2127,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox42"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2136,6 +2178,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox43"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2186,6 +2229,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox44"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2236,6 +2280,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox45"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2286,6 +2331,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox46"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2336,6 +2382,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox47"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2386,6 +2433,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox48"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2436,6 +2484,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox49"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2486,6 +2535,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox50"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2536,6 +2586,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox51"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2586,6 +2637,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox52"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2636,6 +2688,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox53"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2686,6 +2739,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox54"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2736,6 +2790,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox55"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2786,6 +2841,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox56"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2836,6 +2892,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox57"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2886,6 +2943,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox58"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2936,6 +2994,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox59"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -2986,6 +3045,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox60"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3036,6 +3096,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox61"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3086,6 +3147,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox62"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3136,6 +3198,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox63"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3186,6 +3249,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox64"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3236,6 +3300,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox65"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3286,6 +3351,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox66"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3336,6 +3402,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox67"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3386,6 +3453,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox68"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3436,6 +3504,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox69"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3486,6 +3555,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox70"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3536,6 +3606,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox71"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3586,6 +3657,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox72"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3636,6 +3708,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox73"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3686,6 +3759,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox74"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3736,6 +3810,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox75"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3786,6 +3861,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox76"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3836,6 +3912,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox77"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3886,6 +3963,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox78"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3936,6 +4014,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox79"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -3986,6 +4065,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox80"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4036,6 +4116,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox81"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4086,6 +4167,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox82"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4136,6 +4218,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox83"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4186,6 +4269,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox84"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4236,6 +4320,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox85"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4286,6 +4371,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox86"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4336,6 +4422,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox87"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4386,6 +4473,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox88"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4436,6 +4524,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox89"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4486,6 +4575,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox90"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4536,6 +4626,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox91"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4586,6 +4677,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox92"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4636,6 +4728,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox93"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4686,6 +4779,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox94"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4736,6 +4830,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox95"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4786,6 +4881,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox96"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4836,6 +4932,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox97"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4886,6 +4983,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox98"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4936,6 +5034,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox99"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
@@ -4986,6 +5085,7 @@
 
                     <CheckBox
                         android:id="@+id/androidCheckBox100"
+                        android:onClick="onCheckboxClicked"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight=".70"
