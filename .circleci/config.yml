@@ -83,7 +83,8 @@ jobs:
     - run:
         name: Assemble release build
         command: |
-          ./gradlew assembleRelease
+          ./gradlew build --scan
+          #./gradlew assembleRelease
           
 workflows:
   sample:
