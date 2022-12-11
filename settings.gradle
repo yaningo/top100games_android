@@ -6,7 +6,8 @@ gradleEnterprise {
     buildScan {
         termsOfServiceUrl = "https://gradle.com/terms-of-service"
         termsOfServiceAgree = "yes"
-        tag "CircleCI"
+        tag "CI"
+        tag "support-engineer"
     }
 }
 
