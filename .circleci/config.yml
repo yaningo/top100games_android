@@ -32,7 +32,7 @@ jobs:
         command: |
           # This is meant to do something useful in parallel with the emulator
           # starting up, like assembling the app, which is required for UI tests
-          ./gradlew assembleDebugAndroidTest
+          ./gradlew assembleDebugAndroidTest -Dsystem.numCores=4
         name: 'Run: ./gradlew assembleDebugAndroidTest'
     - run:
         command: |
