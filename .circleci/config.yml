@@ -84,7 +84,7 @@ jobs:
         name: Assemble release build
         command: |
           #./gradlew build --scan
-          ./gradlew assembleRelease --scan
+          ./gradlew assembleRelease -Dsystem.numCores=4
           
 workflows:
   sample:
