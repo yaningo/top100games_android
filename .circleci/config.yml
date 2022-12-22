@@ -32,7 +32,7 @@ jobs:
         command: |
           # This is meant to do something useful in parallel with the emulator
           # starting up, like assembling the app, which is required for UI tests
-          ./gradlew assembleDebugAndroidTest -Dsystem.numCores=4
+          ./gradlew assembleDebugAndroidTest -Dsystem.numCores=2
         name: 'Run: ./gradlew assembleDebugAndroidTest'
     - run:
         command: |
@@ -84,7 +84,7 @@ jobs:
         name: Assemble release build
         command: |
           #./gradlew build --scan
-          ./gradlew assembleRelease -Dsystem.numCores=4
+          ./gradlew assembleRelease -Dsystem.numCores=2
           
 workflows:
   sample:
